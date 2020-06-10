@@ -24,6 +24,11 @@ async def greet(ctx):
 @bot.command()
 async def naa(ctx):
     await ctx.send("?")
+    
+@bot.command()
+async def add(left : int, right : int):
+    """Adds two numbers together."""
+    await bot.say(left + right)
 
 
 bot.run(token)
