@@ -7,7 +7,7 @@ token = os.environ['DISCORD_BOT_TOKEN']
 
 @client.event
 async def on_ready():
-    print("むく")
+    print("むくっ")
 
 @bot.event
 async def on_command_error(ctx, error):
