@@ -22,7 +22,7 @@ async def greet(ctx):
     await ctx.send(":smiley: :wave: Hello, there!")
     
 @bot.command()
-async def oi(ctx):
+async def naa(ctx):
     await ctx.send("なんでしょうか？")
 
 
