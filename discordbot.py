@@ -31,16 +31,7 @@ async def add(ctx, a: int, b: int):
     
     
     
-    
-    
-@bot.command()
-async def help(ctx):
-    embed = discord.Embed(title="nice bot", description="A Very Nice bot. List of commands are:", color=0xeee657)
 
-    embed.add_field(name="$naa", value="?を返します, inline=False)
-    embed.add_field(name="$help", value="Gives this message", inline=False)
-
-    await ctx.send(embed=embed)
 
 
 bot.run(token)
