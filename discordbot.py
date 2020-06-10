@@ -23,7 +23,7 @@ async def greet(ctx):
     
 @bot.command()
 async def naa(ctx):
-    await ctx.send("なんでしょうか？")
+    await ctx.send("?")
 
 
 bot.run(token)
