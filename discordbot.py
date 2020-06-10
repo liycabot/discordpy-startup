@@ -20,6 +20,10 @@ async def ping(ctx):
 @bot.command()
 async def greet(ctx):
     await ctx.send(":smiley: :wave: Hello, there!")
+    
+@bot.command()
+async def oi(ctx):
+    await ctx.send("なんでしょうか？")
 
 
 bot.run(token)
